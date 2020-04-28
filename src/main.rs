@@ -6,7 +6,7 @@ use sample::{signal, Signal};
 
 fn main() {
     let matches = App::new("Sine Generator")
-        .author("Brenton Kruger brenton@circalengineering.com")
+        .author("Brenton Kruger brentondkruger@gmail.com")
         .about("Generates wave files for development work")
         .version("0.1")
         .arg(Arg::with_name("sample_rate")
